@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="wrap_content" android:orientation="vertical" android:layout_width="fill_parent">
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/receiver_message"></TextView>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout02" android:layout_height="wrap_content" android:layout_width="fill_parent"><EditText android:layout_height="wrap_content" android:id="@+id/editMessage" android:layout_width="fill_parent"></EditText>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout03" android:layout_height="wrap_content" android:layout_width="fill_parent"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn_sendPrivateMessage" android:text="OK"></Button>
+</LinearLayout>
+
+<RelativeLayout android:id="@+id/RelativeLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent"><ImageView android:id="@+id/send_private_message_sendImageView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:src="@drawable/send" android:visibility="gone"></ImageView>
+</RelativeLayout>
+</LinearLayout>

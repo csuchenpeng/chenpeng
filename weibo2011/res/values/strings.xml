@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">新浪微博</string>
+    <string name="main_home">首页</string>
+    <string name="main_friends">关注</string>
+    <string name="main_followers">粉丝</string>
+    <string name="main_search">搜索</string>
+    <string name="main_more">更多</string>
+    <string name="main_favorites">收藏</string>
+    <string name="main_privateMessage">私信</string>
+    <string name="about_me">提到我的</string>
+    <string name="myWeibo">我的微博</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.cp.ui"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".LogoActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW"></action>
+				<category android:name="android.intent.category.DEFAULT"></category>
+				<category android:name="android.intent.category.BROWSABLE"></category>
+				<data android:scheme="weibo2011" android:host="LoginActivity"></data>
+			</intent-filter>	
+		</activity>
+		<service android:name="com.cp.logic.MainService">
+			<intent-filter>
+				<action android:name="com.cp.logic.MainService"></action>
+			</intent-filter>
+		</service>
+
+
+		<activity android:name="MainActivity">
+        	<intent-filter>
+        		<action android:name="com.cp.MainActivity"></action>
+        		<category android:name="android.intent.category.DEFAULT"></category>
+        	</intent-filter>
+        </activity>
+        <activity android:name="HomeActivity"></activity>
+        <activity android:name="PublishWeibo"></activity>
+        <activity android:name="CommentActivity"></activity>
+        <activity android:name="ReplyCommentActivity"></activity>
+    	<activity android:name="RepostStatusActivity"></activity>
+    	<activity android:name="CommentListActivity"></activity>
+    	<activity android:name="SendPrivateMessageActivity"></activity>
+    	<activity android:name="FollowersActivity"></activity>
+    	<activity android:name="FriendsActivity"></activity>
+    	<activity android:name="OneselfActivity"></activity>
+    	<activity android:name="FavoritesActivity"></activity>
+    	<activity android:name="PrivateMessageActivity"></activity>
+    	<activity android:name="AboutMeActivity"></activity>
+    	<activity android:name="WeiboActivity"></activity>
+    	<activity android:name="DemoActivity"></activity>
+    	<activity android:name="BaisicMessageActivity"></activity>
+    	<activity android:name="SinaWebViewActivity"></activity>
+    </application>
+    <uses-configuration android:reqKeyboardType="nokeys"></uses-configuration>
+    <uses-sdk android:minSdkVersion="8" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+</manifest> 

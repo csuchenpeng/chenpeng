@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:id="@android:id/tabhost" >
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
+<FrameLayout android:layout_height="wrap_content" android:id="@android:id/tabcontent" android:layout_width="fill_parent" android:layout_weight="1"></FrameLayout>
+<TabWidget android:id="@android:id/tabs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:visibility="gone" android:layout_weight="1"></TabWidget>
+<RadioGroup android:layout_height="wrap_content" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_gravity="bottom" android:gravity="center_vertical" android:id="@+id/main_group" android:background="@drawable/main_bottom_bg">
+<RadioButton android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawableTop="@drawable/icon_1_n" android:layout_weight="1" android:id="@+id/radio_btn1" style="@style/radio_btn_bottom" android:text="@string/main_home"></RadioButton>
+<RadioButton android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/radio_btn2" style="@style/radio_btn_bottom" android:text="@string/main_friends" android:drawableTop="@drawable/friends"></RadioButton>
+<RadioButton android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/radio_btn3" style="@style/radio_btn_bottom" android:drawableTop="@drawable/followers" android:text="@string/main_followers"></RadioButton>
+<RadioButton android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/radio_btn4" style="@style/radio_btn_bottom" android:text="@string/main_privateMessage" android:drawableTop="@drawable/private_message_icon"></RadioButton>
+<RadioButton android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/radio_btn5" style="@style/radio_btn_bottom" android:drawableTop="@drawable/favorites" android:text="@string/main_favorites"></RadioButton>
+<RadioButton android:layout_height="wrap_content" android:id="@+id/radio_btn6" android:layout_weight="1" android:layout_width="fill_parent" android:drawableTop="@drawable/about_me" android:text="@string/about_me" style="@style/radio_btn_bottom"></RadioButton>
+
+</RadioGroup>
+</LinearLayout>
+</TabHost>

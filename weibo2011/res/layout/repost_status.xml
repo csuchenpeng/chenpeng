@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+	<LinearLayout android:id="@+id/LinearLayout01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical">
+
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/repost_status_title"
+			android:text=""></TextView>
+		<TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/repsot_status_content"></TextView><EditText android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:width="300px" android:id="@+id/repost_status_input"></EditText>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="转发微博"
+			android:id="@+id/repost_status_button"></Button>
+	
+</LinearLayout>
+</LinearLayout>

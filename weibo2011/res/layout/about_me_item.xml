@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="wrap_content"><LinearLayout android:id="@+id/LinearLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content"><ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/about_me_userImage"></ImageView>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout03" android:layout_height="wrap_content" android:orientation="vertical" android:layout_width="fill_parent"><RelativeLayout android:id="@+id/RelativeLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/about_me_userName" android:layout_alignParentLeft="true"></TextView>
+<CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/about_me_cbox_btn" android:layout_alignParentRight="true"></CheckBox>
+</RelativeLayout>
+<LinearLayout android:id="@+id/LinearLayout04" android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="vertical"><TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/about_me_content"></TextView>
+<TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/about_me_retweeted_content"></TextView>
+<ImageView android:layout_height="wrap_content" android:id="@+id/about_me_thumbnail_pic" android:layout_width="wrap_content"></ImageView>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout05" android:layout_height="wrap_content" android:layout_width="fill_parent"><TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/about_me_row_three"></TextView>
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>

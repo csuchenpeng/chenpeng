@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal" android:layout_width="fill_parent">
+	
+	
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content"><ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/home_pic"></ImageView>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout02" android:layout_height="wrap_content" android:orientation="vertical" android:layout_width="fill_parent">
+<RelativeLayout android:id="@+id/RelativeLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent"><TextView android:layout_height="wrap_content" android:id="@+id/home_userName" android:layout_alignParentLeft="true" android:layout_width="fill_parent"></TextView>
+
+
+</RelativeLayout><LinearLayout android:id="@+id/LinearLayout04" android:layout_height="wrap_content" android:layout_width="fill_parent"><TextView android:text="@+id/TextView01" android:layout_height="wrap_content" android:id="@+id/home_contentOne" android:layout_width="fill_parent"></TextView>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout05" android:layout_height="wrap_content" android:layout_width="fill_parent"><TextView android:layout_height="wrap_content" android:id="@+id/home_contentTwo" android:layout_width="fill_parent"></TextView>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout03" android:layout_height="wrap_content" android:layout_width="fill_parent"><ImageView android:layout_height="wrap_content" android:id="@+id/home_row_four" android:layout_width="wrap_content"></ImageView>
+</LinearLayout><LinearLayout android:id="@+id/LinearLayout06" android:layout_height="wrap_content" android:layout_width="fill_parent"><TextView android:text="@+id/TextView01" android:layout_height="wrap_content" android:id="@+id/home_row_three" android:layout_width="fill_parent"></TextView>
+</LinearLayout>
+
+
+</LinearLayout>
+</LinearLayout>

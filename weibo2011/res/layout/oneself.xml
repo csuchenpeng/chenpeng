@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:layout_width="fill_parent"
+	android:orientation="vertical">
+
+
+
+
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_width="fill_parent"><LinearLayout android:id="@+id/LinearLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content"><ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/oneself_userImage"></ImageView>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical"><TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/oneself_row_one"></TextView>
+<TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/oneself_row_two"></TextView>
+<TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/oneself_row_three"></TextView>
+</LinearLayout>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout04" android:layout_height="wrap_content" android:layout_width="fill_parent">
+<Button android:layout_height="wrap_content" android:id="@+id/oneself_delete_btn" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_width="fill_parent" android:layout_weight="1" android:text="加关注">
+</Button><Button android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:id="@+id/oneself_favorites_btn" android:layout_toRightOf="@+id/oneself_delete_btn" android:layout_width="fill_parent" android:layout_weight="1" android:text="取消关注"></Button>
+
+
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/home_bg"><LinearLayout android:id="@+id/LinearLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/private_message_title" android:textColor="@color/brown"></TextView>
+
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout03" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_width="fill_parent">
+
+<Spinner android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/private_message_spinner" android:layout_weight="1"></Spinner>
+
+<ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/private_message_delete_btn" android:layout_weight="1" android:src="@drawable/delete"></ImageButton>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout04" android:layout_width="wrap_content" android:layout_height="wrap_content"><ListView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/private_message_listView"></ListView>
+</LinearLayout>
+</LinearLayout>

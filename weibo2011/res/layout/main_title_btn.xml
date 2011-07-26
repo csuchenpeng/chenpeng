@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@+id/FrameLayout01"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:visibility="gone">
+	<RelativeLayout android:id="@+id/LinearLayout01"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:orientation="horizontal" android:background="@drawable/maintab_toolbar_bg">
+
+
+
+<ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pen" android:id="@+id/weibo_btn"></ImageButton>
+
+
+<ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/refresh12" android:layout_alignParentRight="true" android:id="@+id/refresh_btn"></ImageButton>
+</RelativeLayout>
+</FrameLayout>

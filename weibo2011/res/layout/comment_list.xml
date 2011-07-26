@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content" android:orientation="vertical">
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:orientation="vertical" android:layout_width="fill_parent">
+
+
+<TextView android:layout_height="wrap_content" android:id="@+id/c_weibo_userName" android:layout_width="fill_parent"></TextView>
+<TextView android:layout_height="wrap_content" android:id="@+id/c_weibo_content" android:layout_width="fill_parent"></TextView>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout02" android:layout_height="wrap_content" android:layout_width="fill_parent"><EditText android:id="@+id/c_weibo_edit" android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout03" android:layout_height="wrap_content" android:layout_width="fill_parent">
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/c_submit_btn" android:text="OK"></Button>
+</LinearLayout>
+
+<ListView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/c_listview_comments"></ListView>
+</LinearLayout>

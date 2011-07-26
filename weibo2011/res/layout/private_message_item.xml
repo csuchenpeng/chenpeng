@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_height="wrap_content">
+<LinearLayout android:id="@+id/LinearLayout03" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_width="fill_parent"><LinearLayout android:id="@+id/LinearLayout04" android:layout_width="wrap_content" android:layout_height="wrap_content"><ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/private_message_userImage"></ImageView>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical"><RelativeLayout android:id="@+id/RelativeLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:id="@+id/private_message_userName"></TextView>
+
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/private_message_more" android:text="发私信" android:layout_toRightOf="@+id/private_message_userName" android:layout_toLeftOf="@+id/private_message_cbox_btn"></Button>
+<CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/private_message_cbox_btn" android:layout_alignParentRight="true"></CheckBox>
+</RelativeLayout>
+<LinearLayout android:id="@+id/LinearLayout06" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/private_message_content"></TextView>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout07" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/private_message_time"></TextView>
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>

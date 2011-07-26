@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/maintab_toolbar_bg"><LinearLayout android:id="@+id/LinearLayout06" android:layout_height="wrap_content" android:layout_width="fill_parent"><ImageView android:layout_height="wrap_content" android:id="@+id/basic_message_title_image" android:layout_width="fill_parent"></ImageView>
+</LinearLayout><LinearLayout android:id="@+id/LinearLayout02" android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="horizontal">
+<LinearLayout android:id="@+id/LinearLayout04" android:layout_height="wrap_content" android:layout_width="wrap_content">
+<ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/basic_message_userImage"></ImageButton>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout05" android:layout_height="wrap_content" android:orientation="vertical" android:layout_width="wrap_content"><TextView android:layout_height="wrap_content" android:id="@+id/basic_message_rowOne" android:layout_width="wrap_content" android:textColor="@color/brown"></TextView>
+
+
+</LinearLayout>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout03" android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="vertical"><TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/basic_message_rowTwo"></TextView><TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/basic_message_rowThree"></TextView><TextView android:layout_height="wrap_content" android:id="@+id/basic_message_rowFour" android:text="基本信息" android:layout_width="fill_parent"></TextView>
+<TextView android:layout_height="wrap_content" android:id="@+id/basic_message_rowFive" android:layout_width="fill_parent"></TextView>
+<TextView android:layout_height="wrap_content" android:id="@+id/basic_message_rowSix" android:layout_width="fill_parent"></TextView>
+<TextView android:layout_height="wrap_content" android:id="@+id/basic_message_rowSeven" android:layout_width="fill_parent"></TextView>
+<TextView android:layout_height="wrap_content" android:id="@+id/basic_message_rowEight" android:layout_width="fill_parent"></TextView>
+
+
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/新建文件夹 (2)/commons-codec.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/新建文件夹 (2)/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/新建文件夹 (2)/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/新建文件夹 (2)/junit-4.1.jar"/>
+	<classpathentry kind="lib" path="F:/java/java 工具/android/android-sdk_r07-windows/android-sdk-windows/platforms/android-8/android.jar" sourcepath="F:/java/java 工具/android/android-sdk_r07-windows/android-sdk-windows/platforms/android-8/sources">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/F:/java/java 工具/android/android-sdk_r07-windows/android-sdk-windows/docs/reference"/>
+		</attributes>
+		<accessrules>
+			<accessrule kind="nonaccessible" pattern="com/android/internal/**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

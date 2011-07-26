@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical" android:background="@drawable/home_bg">
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent"><TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/about_me_title" android:text="提到我的" android:textColor="@color/brown"></TextView>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout02" android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="horizontal">
+<ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/about_me_delete_img_btn" android:src="@drawable/btn_close_highlight"></ImageButton>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical"><ListView android:layout_height="wrap_content" android:id="@+id/about_me_listView" android:layout_width="fill_parent"></ListView>
+</LinearLayout>
+</LinearLayout>
